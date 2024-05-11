@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+      <aside>
+           
+         <div class="top">
+           <div class="logo">
+             <h2>Salary <span class="danger">Tracker</span> </h2>
+           </div>
+           <div class="close" id="close_btn">
+            <span class="material-symbols-sharp">
+              close
+              </span>
+           </div>
+         </div>
+         <!-- end top -->
+         <div class="sidebar">
+
+            <a href="index.html">
+              <span class="material-symbols-sharp">grid_view </span>
+              <h3>Dashbord</h3>
+           </a>
+           <a href="#" class="active">
+              <span class="material-symbols-sharp">person_outline </span>
+              <h3>Account</h3>
+           </a>
+           
+           
+           <a href="#">
+              <span class="material-symbols-sharp">receipt_long </span>
+              <h3>Categorie</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">report_gmailerrorred </span>
+              <h3>About us</h3>
+           </a>
+           <a href="#">
+            <span class="material-symbols-sharp">add </span>
+            <h3>Add Budget</h3>
+         </a>
+           <a href="add.html">
+              <span class="material-symbols-sharp">add </span>
+              <h3>Add expense</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">logout </span>
+              <h3>logout</h3>
+           </a>
+             
+
+
+          </div>
+
+      </aside>
+      <!-- --------------
+        end asid
+      -------------------- -->
+
+      <!-- --------------
+        start main part
+      --------------- -->
+
+      <main>
+
+      <div class="recent_order">
+         <h2 class="perso">Personal Informations :</h2>
+         <h3 class="perso">Welcome [Name], Here's your info</h3>
+
+         <table class="table_account"> 
+             <thead>
+              <tr>
+                <th>Account Information</th>
+                <br><br>
+                <th>Change Password?</th>
+              </tr>
+             </thead>
+             <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <br><li>Nom: [ur name]</li> <br>
+                            <li>Mail: [mail]</li><br>
+                            <li>Age: [age]</li><br>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <br><li>Old Password: <input type="text" class="password-input" name="old_password" placeholder="old"></li><br>
+                            <li>New Password: <input type="text" class="password-input" name="new_password" placeholder="new"></li><br>
+                            <li>Confirm New Password: <input type="text" class="password-input" name="confirm_password" placeholder="confirm"></li><br>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+         </table>
+        
+      </div>
+
+      </main>
+      <!------------------
+         end main
+        ------------------->
+
+      <!----------------
+        start right main 
+      ---------------------->
+    <div class="right">
+
+<div class="top">
+   <button id="menu_bar">
+     <span class="material-symbols-sharp">menu</span>
+   </button>
+
+   <div class="theme-toggler">
+     <span class="material-symbols-sharp active">light_mode</span>
+     <span class="material-symbols-sharp">dark_mode</span>
+   </div>
+   
+</div>
+
+
+   
+  
+
+</div>
+
+      <div class="item add_product">
+            <div>
+            <span class="material-symbols-sharp">add</span>
+            </div>
+     </div>
+</div>
+
+
+   </div>
+
+
+
+   <script src="script.js"></script>
+</body>
+</html>

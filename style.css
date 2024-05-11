@@ -680,3 +680,18 @@ MEDIA QUERY PHONE
 
 
 }
+    /* Style pour les zones de texte */
+    .password-input {
+      width: 150px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      background: var(--clr-white);
+      border-radius: var(--card-border-radius);
+      text-align: center;
+      box-shadow: var(--box-shadow);
+      transition: all .3s ease;
+      color: var(--clr-dark);
+    }
+    .perso {
+      text-align: center;
+  }
